@@ -5,7 +5,7 @@ st.set_page_config(page_title="Earnings Manipulation ML Models", layout="wide")
 
 st.title("Earnings Manipulation Detection using ML Models")
 
-with open("2411042_EARNINGS_MANIPULATION_ML_MODELS.html", "r", encoding="utf-8") as f:
+with open("'/Users/jeyanth/Desktop/TSM/TRIMESTER 5/AIM/Manipulator/2411042_EARNINGS_MANIPULATION_ML_MODELS.html'", "r", encoding="utf-8") as f:
     html_data = f.read()
 
 components.html(html_data, height=1200, scrolling=True)
